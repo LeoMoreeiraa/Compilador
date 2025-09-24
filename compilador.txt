@@ -1,0 +1,17 @@
+(*
+programa le dois numeros inteiros e encontra o maior 
+*)
+program ex1;
+var
+num_1, num_2:integer;
+maior:integer;
+teste:char;
+begin
+read(num_1,num_2);
+if num_1 > num_2 then
+ maior := num_1
+else
+ maior := num_2;
+teste := 'f'; (* so pra testar o char *)
+write(maior) (* imprime o maior valor *)
+end.
